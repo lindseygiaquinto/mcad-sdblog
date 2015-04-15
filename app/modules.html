@@ -9,7 +9,8 @@
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/normalize.css">
+    <link rel="stylesheet" href="/bower_components/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -91,10 +92,10 @@
         <img class="sample-image" src="images/modules/social-media.png" alt="Social Media">
 
         <ul class="social-media">
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Pinterest</li>
-          <li>LinkedIn</li>
+          <li><i class="fa fa-facebook"></i><span class="visuallyhidden">Facebook</span></li>
+          <li><i class="fa fa-twitter"></i><span class="visuallyhidden">Twitter</span></li>
+          <li><i class="fa fa-pinterest"></i><span class="visuallyhidden">Pinterest</span></li>
+          <li><i class="fa fa-linkedin"></i><span class="visuallyhidden">LinkedIn</span></li>
         </ul>
       </div>
       
@@ -107,10 +108,10 @@
         <footer class="page-footer">
           <p>Minneapolis College of Art and Design &copy; 2015</p>
           <ul class="social-media">
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Pinterest</li>
-            <li>LinkedIn</li>
+            <li><i class="fa fa-facebook"></i><span class="visuallyhidden">Facebook</span></li>
+            <li><i class="fa fa-twitter"></i><span class="visuallyhidden">Twitter</span></li>
+            <li><i class="fa fa-pinterest"></i><span class="visuallyhidden">Pinterest</span></li>
+            <li><i class="fa fa-linkedin"></i><span class="visuallyhidden">LinkedIn</span></li>
           </ul>
         </footer>
       </div>
@@ -128,7 +129,11 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="/bower_components/eventie/eventie.js"></script>
+    <script src="/bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
+    <script src="/bower_components/imagefill/js/jquery-imagefill.js"></script>
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
