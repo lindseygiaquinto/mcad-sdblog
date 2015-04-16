@@ -1,0 +1,28 @@
+// Utility Nav
+
+.utility-nav {
+    font-size: 0.75em;
+    font-weight: 500;
+	ul {
+	  @include clearfix;
+	  margin: 0;
+	  padding: 0;
+	  list-style-type: none;
+	}
+	li {
+	  float: left;
+	  border-left: gray 0.1em solid;
+	  padding: 0.3em;
+	  margin-left: 3em;
+	  opacity: 0.4;
+	}
+	a {
+	  display: inline-block;
+	  color: $black;
+	  padding: 0.34em;
+	  text-decoration: none;
+	  &:hover {
+	    color: black
+	  }
+	}
+}
