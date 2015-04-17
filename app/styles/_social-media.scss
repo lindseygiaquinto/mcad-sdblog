@@ -11,6 +11,9 @@
 	a {
 	  display: inline-block;
 	  color: $black;
+	  &:hover {
+	    color: $magenta;
+	  }
 	  padding: 0.34em;
 	}
 }

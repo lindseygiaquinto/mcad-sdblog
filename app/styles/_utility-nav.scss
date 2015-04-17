@@ -12,17 +12,21 @@
 	li {
 	  float: left;
 	  border-left: gray 0.1em solid;
-	  padding: 0.3em;
-	  margin-left: 3em;
+	  padding: 0.5em;
+	  margin: 0em 2em;
 	  opacity: 0.4;
+	  &:hover {
+	    opacity: 1.0;
+	  }
 	}
+	.brochure {
+	  background: url("../images/sdo_broch.png") no-repeat right;
+	  padding-right: 3em;
+	  margin-right: 0.7em;
+	  }
 	a {
 	  display: inline-block;
 	  color: $black;
-	  padding: 0.34em;
 	  text-decoration: none;
-	  &:hover {
-	    color: black
-	  }
-	}
+    }
 }

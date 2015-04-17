@@ -3,4 +3,7 @@
 .logo-mcad {
 	max-width: 6em;
 	opacity: 0.4;
+	&:hover {
+	  opacity: 1.0;
+	}
 }
